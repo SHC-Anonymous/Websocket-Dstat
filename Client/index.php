@@ -19,7 +19,7 @@ Websocket Network Protocol
 
 # Checker if the http server is online (BETA)
 <?php
-$URL = 'http://websocket.game-production.repl.co/'; // WEBSOCKET URL HERE (only if you have a http webserver with the websocket)
+$URL = 'http://xxx.co/'; // WEBSOCKET URL HERE (only if you have a http webserver with the websocket)
 if(isSiteAvailible($URL)){
 echo '<h1>Status: ONLINE</h1>';      
 }else{
@@ -30,7 +30,7 @@ echo '<h1>Status: OFFLINE</h1>';
 <script>
 var msg = "Loading...";
 setInterval(function() {
-const socket = new WebSocket('wss://websocket.game-production.repl.co'); // WEBSOCKET URL HERE
+const socket = new WebSocket('wss://test123.co'); // WEBSOCKET URL HERE
 socket.addEventListener('open', function (event) {
 console.log('Client: Connected to server') });
 socket.addEventListener('message', function (event) {
